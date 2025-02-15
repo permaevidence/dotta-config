@@ -1,0 +1,19 @@
+{
+  "llmModels": {
+    "groq": {
+      "fast": "meta-llama/llama-3.1-70b-instruct",
+      "intelligent": "deepseek/deepseek-chat"
+    },
+    "perplexity": "sonar",
+    "whisper": "whisper-large-v3-turbo"
+  },
+  "costs": {
+    "whisperCostPerSecond": 0.0007,
+    "perplexityFixedDeduction": 0.01,
+    "groq": {
+      "fast": { "input": 0.30, "output": 0.60 },
+      "intelligent": { "input": 2.00, "output": 2.00 }
+    },
+    "perplexity": { "input": 2.00, "output": 2.00 }
+  }
+}
