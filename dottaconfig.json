@@ -8,10 +8,10 @@
     "whisper": "whisper-large-v3-turbo"
   },
   "costs": {
-    "whisperCostPerSecond": 0.0007,
+    "whisperCostPerSecond": 0.00007,
     "perplexityFixedDeduction": 0.01,
     "groq": {
-      "fast": { "input": 0.30, "output": 0.60 },
+      "fast": { "input": 0.60, "output": 0.80 },
       "intelligent": { "input": 2.00, "output": 2.00 }
     },
     "perplexity": { "input": 2.00, "output": 2.00 }
