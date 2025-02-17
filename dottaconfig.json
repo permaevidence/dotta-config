@@ -4,16 +4,25 @@
       "fast": "google/gemini-2.0-flash-001",
       "intelligent": "deepseek/deepseek-chat"
     },
-    "perplexity": "sonar",
+    "perplexity": "perplexity/sonar",
     "whisper": "whisper-large-v3-turbo"
   },
   "costs": {
     "whisperCostPerSecond": 0.00007,
     "perplexityFixedDeduction": 0.01,
     "groq": {
-      "fast": { "input": 0.40, "output": 0.80 },
-      "intelligent": { "input": 2.00, "output": 2.00 }
+      "fast": {
+        "input": 0.40,
+        "output": 0.80
+      },
+      "intelligent": {
+        "input": 2.00,
+        "output": 2.00
+      }
     },
-    "perplexity": { "input": 2.00, "output": 2.00 }
+    "perplexity": {
+      "input": 2.00,
+      "output": 2.00
+    }
   }
 }
