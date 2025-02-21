@@ -2,9 +2,9 @@
   "llmModels": {
     "groq": {
       "fast": "google/gemini-2.0-flash-001",
-      "intelligent": "google/gemini-2.0-flash-thinking-exp:free",
+      "intelligent": "openai/o3-mini-high",
       "fastLabel": "Gemini 2 Flash",
-      "intelligentLabel": "Gemini Flash Thinking"
+      "intelligentLabel": "o3-mini-high costoso"
     },
     "perplexity": "perplexity/sonar",
     "whisper": "whisper-large-v3-turbo"
@@ -18,8 +18,8 @@
         "output": 0.80
       },
       "intelligent": {
-        "input": 0.40,
-        "output": 0.80
+        "input": 2.50,
+        "output": 10.00
       }
     },
     "perplexity": {
