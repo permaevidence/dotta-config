@@ -1,10 +1,10 @@
 {
   "llmModels": {
     "groq": {
-      "fast": "google/gemini-2.0-flash-001",
-      "intelligent": "google/gemini-2.5-pro-exp-03-25:free",
-      "fastLabel": "Gemini 2 Flash",
-      "intelligentLabel": "Gemini 2.5 Pro"
+      "fast": "google/gemini-2.5-flash-preview",
+      "intelligent": "google/gemini-2.5-flash-preview:thinking",
+      "fastLabel": "Gemini 2.5 Flash",
+      "intelligentLabel": "Gemini 2.5 F.Thinking"
     },
     "perplexity": "perplexity/sonar",
     "whisper": "whisper-large-v3-turbo"
@@ -14,12 +14,12 @@
     "perplexityFixedDeduction": 0.01,
     "groq": {
       "fast": {
-        "input": 0.40,
-        "output": 0.80
+        "input": 0.60,
+        "output": 1.20
       },
       "intelligent": {
-        "input": 2.00,
-        "output": 10.00
+        "input": 0.60,
+        "output": 7.00
       }
     },
     "perplexity": {
