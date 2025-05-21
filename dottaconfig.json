@@ -1,8 +1,8 @@
 {
   "llmModels": {
     "groq": {
-      "fast": "google/gemini-2.5-flash-preview",
-      "intelligent": "google/gemini-2.5-flash-preview:thinking",
+      "fast": "google/gemini-2.5-flash-preview-05-20",
+      "intelligent": "google/gemini-2.5-flash-preview-05-20:thinking",
       "fastLabel": "Gemini 2.5 Flash",
       "intelligentLabel": "Gemini 2.5 F.Thinking"
     },
