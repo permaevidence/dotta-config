@@ -3,8 +3,8 @@
     "groq": {
       "fast": "google/gemini-2.5-flash-preview-05-20",
       "intelligent": "google/gemini-2.5-flash-preview-05-20:thinking",
-      "fastLabel": "Gemini 2.5 Flash",
-      "intelligentLabel": "Gemini 2.5 F.Thinking"
+      "fastLabel": "Gemini 2.5 Flash 05-20",
+      "intelligentLabel": "Gemini 2.5 F.Thinking 05-20"
     },
     "perplexity": "perplexity/sonar",
     "whisper": "whisper-large-v3-turbo"
