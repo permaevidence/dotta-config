@@ -1,9 +1,9 @@
 {
   "llmModels": {
     "groq": {
-      "fast": "google/gemini-2.5-flash",
+      "fast": "qwen/qwen3-235b-a22b-07-25",
       "intelligent": "openai/o3",
-      "fastLabel": "Gemini 2.5 Flash",
+      "fastLabel": "Qwen3-235B",
       "intelligentLabel": "OpenAI o3"
     },
     "perplexity": "perplexity/sonar",
@@ -14,8 +14,8 @@
     "perplexityFixedDeduction": 0.01,
     "groq": {
       "fast": {
-        "input": 0.60,
-        "output": 5.00
+        "input": 0.50,
+        "output": 2.00
       },
       "intelligent": {
         "input": 4.00,
