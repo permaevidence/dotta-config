@@ -1,9 +1,9 @@
 {
   "llmModels": {
     "groq": {
-      "fast": "qwen/qwen3-235b-a22b-07-25",
+      "fast": "openai/gpt-oss-120b",
       "intelligent": "openai/o3",
-      "fastLabel": "Qwen3-235B",
+      "fastLabel": "OSS-120B",
       "intelligentLabel": "OpenAI o3"
     },
     "perplexity": "perplexity/sonar",
