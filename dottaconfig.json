@@ -2,9 +2,9 @@
   "llmModels": {
     "groq": {
       "fast": "openai/gpt-oss-120b",
-      "intelligent": "openai/o3",
+      "intelligent": "openai/gpt-oss-120b",
       "fastLabel": "OSS-120B",
-      "intelligentLabel": "OpenAI o3"
+      "intelligentLabel": "OSS-120B"
     },
     "perplexity": "perplexity/sonar",
     "whisper": "whisper-large-v3-turbo"
