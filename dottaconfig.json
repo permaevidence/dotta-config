@@ -1,9 +1,9 @@
 {
   "llmModels": {
     "groq": {
-      "fast": "openai/gpt-oss-120b",
+      "fast": "google/gemini-2.5-flash",
       "intelligent": "openai/gpt-oss-120b",
-      "fastLabel": "OSS-120B",
+      "fastLabel": "Gemini 2.5 Flash",
       "intelligentLabel": "OSS-120B"
     },
     "perplexity": "perplexity/sonar",
@@ -14,8 +14,8 @@
     "perplexityFixedDeduction": 0.01,
     "groq": {
       "fast": {
-        "input": 0.50,
-        "output": 2.00
+        "input": 0.60,
+        "output": 5.00
       },
       "intelligent": {
         "input": 0.50,
